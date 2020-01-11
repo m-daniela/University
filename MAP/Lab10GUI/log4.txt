@@ -1,0 +1,864 @@
+Program State
+ID
+4
+Stack
+(string varf;(varf = test.in;(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+string varf
+(varf = test.in;(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+string varf
+(varf = test.in;(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(varf = test.in;(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))))
+
+
+
+SymTable
+<varf, >
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(varf = test.in;(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))))
+
+
+
+SymTable
+<varf, >
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+varf = test.in
+(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))))
+
+
+
+
+SymTable
+<varf, >
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+varf = test.in
+(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))))
+
+
+
+
+SymTable
+<varf, >
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))))
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Open(varf);(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))))
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Open(varf)
+(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))
+
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Open(varf)
+(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))
+
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(int varc;(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))))
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+int varc
+(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))
+
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+int varc
+(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))
+
+
+
+
+SymTable
+<varf, test.in>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Read(varc from varf);(Print(varc);(Read(varc from varf);(Print(varc);Close(varf)))))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Read(varc from varf)
+(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Read(varc from varf)
+(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Print(varc);(Read(varc from varf);(Print(varc);Close(varf))))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Print(varc)
+(Read(varc from varf);(Print(varc);Close(varf)))
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Print(varc)
+(Read(varc from varf);(Print(varc);Close(varf)))
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Read(varc from varf);(Print(varc);Close(varf)))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Read(varc from varf);(Print(varc);Close(varf)))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Read(varc from varf)
+(Print(varc);Close(varf))
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Read(varc from varf)
+(Print(varc);Close(varf))
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 15>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Print(varc);Close(varf))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+(Print(varc);Close(varf))
+
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Print(varc)
+Close(varf)
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Print(varc)
+Close(varf)
+
+
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Close(varf)
+
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+50;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+Close(varf)
+
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+50;
+
+
+Heap
+
+
+FileTable
+<test.in, java.io.BufferedReader@7f43812c>
+
+--------------------
+
+
+Program State
+ID
+4
+Stack
+
+
+SymTable
+<varf, test.in>
+<varc, 50>
+
+
+Output
+15;
+50;
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+

@@ -1,0 +1,489 @@
+Program State
+ID
+3
+Stack
+(bool a;(int v;(a = true;(If(a)then(v = 2)else(v = 3);Print(v)))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+bool a
+(int v;(a = true;(If(a)then(v = 2)else(v = 3);Print(v))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+bool a
+(int v;(a = true;(If(a)then(v = 2)else(v = 3);Print(v))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(int v;(a = true;(If(a)then(v = 2)else(v = 3);Print(v))))
+
+
+
+SymTable
+<a, false>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(int v;(a = true;(If(a)then(v = 2)else(v = 3);Print(v))))
+
+
+
+SymTable
+<a, false>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+int v
+(a = true;(If(a)then(v = 2)else(v = 3);Print(v)))
+
+
+
+
+SymTable
+<a, false>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+int v
+(a = true;(If(a)then(v = 2)else(v = 3);Print(v)))
+
+
+
+
+SymTable
+<a, false>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(a = true;(If(a)then(v = 2)else(v = 3);Print(v)))
+
+
+
+SymTable
+<a, false>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(a = true;(If(a)then(v = 2)else(v = 3);Print(v)))
+
+
+
+SymTable
+<a, false>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+a = true
+(If(a)then(v = 2)else(v = 3);Print(v))
+
+
+
+
+SymTable
+<a, false>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+a = true
+(If(a)then(v = 2)else(v = 3);Print(v))
+
+
+
+
+SymTable
+<a, false>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(If(a)then(v = 2)else(v = 3);Print(v))
+
+
+
+SymTable
+<a, true>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(If(a)then(v = 2)else(v = 3);Print(v))
+
+
+
+SymTable
+<a, true>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+If(a)then(v = 2)else(v = 3)
+Print(v)
+
+
+
+
+SymTable
+<a, true>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+If(a)then(v = 2)else(v = 3)
+Print(v)
+
+
+
+
+SymTable
+<a, true>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+v = 2
+Print(v)
+
+
+
+
+SymTable
+<a, true>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+v = 2
+Print(v)
+
+
+
+
+SymTable
+<a, true>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Print(v)
+
+
+
+SymTable
+<a, true>
+<v, 2>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Print(v)
+
+
+
+SymTable
+<a, true>
+<v, 2>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+
+
+SymTable
+<a, true>
+<v, 2>
+
+
+Output
+2;
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+

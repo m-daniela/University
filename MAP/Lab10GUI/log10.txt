@@ -1,0 +1,4240 @@
+Program State
+ID
+10
+Stack
+(int v;(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+10
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+11
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(int v;(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+3
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(int v;(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(int v;(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+int v
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Ref(int) a;(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))))
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Ref(int) a
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+
+SymTable
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(v = 10;(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+v = 10
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(New(a, 22);(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+New(a, 22)
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (0, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))));(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Fork((Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a))))))
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Write(a-> 30);(v = 32;(Print(v);Print(ReadHeap (a)))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Write(a-> 30)
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+
+
+Heap
+<1->22>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(v = 32;(Print(v);Print(ReadHeap (a))))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+1
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+v = 32
+(Print(v);Print(ReadHeap (a)))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 10>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(Print(v);Print(ReadHeap (a)))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(v)
+Print(ReadHeap (a))
+
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(ReadHeap (a))
+
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+
+
+SymTable
+<a, (1, int)>
+<v, 32>
+
+
+Output
+10;
+30;
+32;
+30;
+
+
+Heap
+<1->30>
+
+
+FileTable
+
+--------------------
+
+

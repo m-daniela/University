@@ -1,0 +1,437 @@
+Program State
+ID
+2
+Stack
+(int a;(int b;(a = 2+3*5;(b = a+1;Print(b)))))
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+int a
+(int b;(a = 2+3*5;(b = a+1;Print(b))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+int a
+(int b;(a = 2+3*5;(b = a+1;Print(b))))
+
+
+
+
+SymTable
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(int b;(a = 2+3*5;(b = a+1;Print(b))))
+
+
+
+SymTable
+<a, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(int b;(a = 2+3*5;(b = a+1;Print(b))))
+
+
+
+SymTable
+<a, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+int b
+(a = 2+3*5;(b = a+1;Print(b)))
+
+
+
+
+SymTable
+<a, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+int b
+(a = 2+3*5;(b = a+1;Print(b)))
+
+
+
+
+SymTable
+<a, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(a = 2+3*5;(b = a+1;Print(b)))
+
+
+
+SymTable
+<a, 0>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(a = 2+3*5;(b = a+1;Print(b)))
+
+
+
+SymTable
+<a, 0>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+a = 2+3*5
+(b = a+1;Print(b))
+
+
+
+
+SymTable
+<a, 0>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+a = 2+3*5
+(b = a+1;Print(b))
+
+
+
+
+SymTable
+<a, 0>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(b = a+1;Print(b))
+
+
+
+SymTable
+<a, 17>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+(b = a+1;Print(b))
+
+
+
+SymTable
+<a, 17>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+b = a+1
+Print(b)
+
+
+
+
+SymTable
+<a, 17>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+b = a+1
+Print(b)
+
+
+
+
+SymTable
+<a, 17>
+<b, 0>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(b)
+
+
+
+SymTable
+<a, 17>
+<b, 18>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+Print(b)
+
+
+
+SymTable
+<a, 17>
+<b, 18>
+
+
+Output
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
+Program State
+ID
+2
+Stack
+
+
+SymTable
+<a, 17>
+<b, 18>
+
+
+Output
+18;
+
+
+Heap
+
+
+FileTable
+
+--------------------
+
+
