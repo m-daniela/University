@@ -1,0 +1,88 @@
+/*5. Write a web page which displays a number of images in a table. The table should be formatted using a style sheet. Also when the mouse is over an image, the image should increase opacity with a specific amount.
+
+18. Write a web page which has on top of it a rainbow built using divs and gradient colors. The rainbow should be tilted with an angle (it should not be perfectly horizontal) and the width of the rainbow on the left side should be smaller than the width of the rainbow on the right side.*/
+
+body{
+	background-color: #e2e2e2;
+}
+
+article{
+	padding: 15px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+nav{
+	display: inline-block;
+}
+
+/*5.*/
+
+.lab2 table td{
+	background-color: #eaeaea;
+	border: 1px solid grey;
+	padding: 30px;
+}
+
+.lab2 td img{
+	width: 400px;
+	opacity: 0.5;
+}
+
+.lab2 td img:hover{
+	opacity: 0.9;
+	cursor: none;
+}
+
+/*18.*/
+
+.rainbow {
+	display: block;
+	z-index: 1000;
+	padding: 0;
+	margin: 0;
+}
+
+.rainbow div{
+	height: 70px;
+	transform: rotate(15deg);
+}
+
+#red{
+	background-image: linear-gradient(#f40407, #ffb406);
+	width: 800px;
+}
+
+#orange{
+	background-image: linear-gradient(#ffb406, #fff51a);
+	width: 700px;
+}
+
+#yellow{
+	background-image: linear-gradient(#fff51a, #63b70a);
+	width: 600px;
+}
+
+#green{
+	background-image: linear-gradient(#63b70a, #0071bd);
+	width: 500px;
+
+}
+
+#blue{
+	background-image: linear-gradient(#0071bd, #2e3192);
+	width: 400px;
+
+}
+
+#indigo{
+	background-image: linear-gradient(#2e3192, #92278f);
+	width: 300px;
+}
+
+#violet{
+	background-image: #92278f;
+	width: 200px;
+}
