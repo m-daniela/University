@@ -1,0 +1,61 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.desktop1, .desktop2, .desktop3, .desktop4, .desktop5{
+	display: block;
+	position: absolute;
+	background-repeat: none;
+	height: 100vh;
+  	width: 100vw;
+  	position: absolute;
+}
+
+.desktop1{
+	background-image: url("Media/desktop1.png");
+}
+
+.desktop2{
+	background-image: url("Media/desktop2.png");
+	/*left: -100vw;*/
+}
+
+.desktop3{
+	background-image: url("Media/desktop3.png");
+	/*left: -100vw;*/
+}
+
+.desktop4{
+	background-image: url("Media/desktop4.png");
+	/*left: -100vw;*/
+}
+
+.text{
+	padding: 20px;
+	margin: 50px;
+	width: 500px;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	border-radius: 5px;
+	color: #eaeaea;
+	text-align: justify;
+	font-family: Jura;
+	display: block;
+}
+
+.text h1{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.text p{
+	font-size: 17px;
+}
+
+.img{
+	width: 300px;
+	margin-top: 20px;
+	position: relative;
+}

@@ -1,0 +1,408 @@
+/*Develop an html+css web document that looks like the following web page: https://www.udemy.com/the-web-developer-bootcamp/. You should clone about one screen of this web page (not the whole web page) and your html document should look approximately 90% as the given web page. No interactivity should be added (e.g. javascript, :hover effects etc.) and you are not allowed to use any css or javascript library.*/
+
+/*:root{
+
+};*/
+
+
+
+body{
+	font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.43;
+	color: #505763;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	width: 100%;
+	padding: 0 auto;
+	margin: 0;
+	align-items: center;
+
+}
+
+a{
+	text-decoration-line: none;
+	color: inherit;
+}
+
+.header{
+	/*font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;*/
+	font-family: Helvetica, Open Sans Regular;
+	/*max-width: 1329px;*/
+	display: flex;
+	background: #fff;
+	border-bottom: 1px solid #cbccd0;
+	box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+	/*box-shadow: 0 0 5px 0 #e0e1e4;*/
+	position: relative;
+	z-index: 1010;
+	padding-left: 40px; 
+	margin: 0;
+	height: 65px;
+	justify-content: space-around;
+}
+
+.header div{
+	padding: 15px 15px 15px 0;
+	margin: 2px;
+	text-align: center;
+	display: block;
+	align-self: center;
+
+}
+
+.search-bar form{
+	height: 45px;
+	margin: 0;
+	background-color: #f2f3f5;
+}
+
+.search-bar input{
+	width: 505px;
+	height: 20px;
+	background-color: #f2f3f5;
+	border: none;
+	padding: 10px 12px;
+	font-size: 13px;
+}
+
+.search-bar button{
+	height: 40px;
+	margin: 0;
+	background-color: #f2f3f5;
+	border: none;
+	padding: 10px 12px;
+}
+
+#log-in{
+	background-color: #fff;
+	padding: 11px 12px;
+	border: 1px solid #505763;
+	color: #505763;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+#sign-up{
+	background-color: #ec5252;
+	color: #fff;
+	padding: 11px 12px;
+	outline: none;
+	border: 1px solid #ec5252;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+.container{
+	margin-left: 150px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.topic-menu{
+	width: 100% - 20px;
+
+	/*width: 1349px;*/
+	padding-left: 20px;
+	min-height: 44px;
+	background-color: #f7f8fa;
+	display: flex;
+
+}
+
+.topic-menu a{
+	color: inherit;
+}
+
+.topic-menu div{
+	text-align: center;
+	display: block;
+	align-self: center;
+}
+
+#topic-menu-item1{
+	padding: 12px;
+	width: 87px;
+	height: 18px;
+	font-weight: 700;
+}
+
+#topic-menu-item2{
+	/*padding: 12px;*/
+	width: 112px;
+	height: 18px;
+}
+
+
+.banner-middle{
+	/*width: 1349px;*/
+	width: 100%;
+	margin: 0 auto;
+	height: 227px;
+	padding-bottom: 60px;
+	background-color: #29303b;
+	color: #f1f1f2;
+	position: relative;
+}
+
+.purchase{
+	width: 1170px;
+	margin-left: 170px;
+	height: 42px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: flex-end;
+	/*align-items: center;*/
+	/*align-items: center;*/
+	
+}
+/*
+.container-left{
+	width: 352px;
+	padding-right: 15px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #fff;
+}
+*/
+.gift, .wishlist{
+	margin-top: 10px;
+	font-weight: 400;
+	height: 32px;
+	font-size: 17px;
+	padding-left: 15px; 
+	display: flex;
+	justify-content: center;
+	/*align-self: center;*/
+}
+
+.gift span, .gitf img, .wishlist span{
+	align-self: baseline;
+	padding: 0 5px;
+}
+
+.intro{
+	width: 750px;
+	height: 185px;
+	padding: 0 15px;
+	color: #fff;
+}
+
+.intro h1{
+	font-size: 36px;
+	line-height: 41px;
+	margin-top: 15px;
+	margin: 21px 0 10.5px 0;
+	padding: 0;
+}
+
+.intro p{
+	font-size: 21px;
+	line-height: 27px;
+	margin: 0;
+}
+
+.rating, .details{
+	margin-top: 5px;
+	font-size: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.rating span, .details span{
+	padding-right: 15px;
+}
+
+
+.creation a{
+	color: #d6e4e8;
+}
+
+.languages a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.column-left{
+	width: 750px;
+	margin-left: 150px;
+	padding: 30px 15px 15px 15px;
+	position: relative;
+	font-size: 15px;
+	color: #29303b;
+}
+
+.offers{
+	width: 718px;
+	height: 323px;
+	background-color: #f9f9f9;
+	border: 1px solid #dedfe0;
+	padding: 10px 15px;
+	margin: 15px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.offers h1{
+	width: 718px;
+	height: 31px;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0 0 10px;
+	color: #29303b;
+}
+
+.left{
+	margin-top: 0px;
+	padding-left: 20px;
+	
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.left li{
+	width: 292px;
+	list-style-image: url("list1.png");
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.fade{
+
+	width: 718px;
+	background: linear-gradient(rgba(249,249,249,0),rgba(249,249,249,0.95),#f9f9f9);
+	bottom: 40px;
+	display: block;
+	padding-top: 30px;
+	position: absolute;
+
+}
+
+.fade a{
+	z-index: 1000;
+	color: #0087b4;
+}
+
+
+.column-right{
+	width: 354px;
+	height: 780px;
+	position: absolute;
+	top: 180px;
+	left: 980px;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 0;
+}
+
+.inner-right{
+	width: 294px;
+	padding: 15px 30px ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.inner-right div, .inner-right span, .inner-right button{
+	width: 294px;
+	align-self: center;
+}
+
+.prices{
+	margin: 0;
+	align-self: center;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.prices h1{
+	/*width: 33.33%;*/
+	margin: 0;
+	font-size: 36px;
+	padding: 2px;
+}
+
+.prices span{
+	color: #8a92a3;
+	padding: 2px;
+	font-size: 18px;
+}
+
+#strike{
+	text-decoration: line-through;
+}
+
+#buy{
+	background-color: #fff;
+	padding: 16px 12px;
+	width: 294px;
+	border: 1px solid #505763;
+	color: #505763;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+#cart{
+	background-color: #ec5252;
+	color: #fff;
+	padding: 16px 12px;
+	width: 294px;
+	outline: none;
+	border: 1px solid #ec5252;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+#cupon, #share{
+	background-color: #fff;
+	color: #fff;
+	padding: 16px 12px;
+	width: 294px;
+	border: none;
+	box-shadow: none;
+	color: #0087b4;
+}
+
+.inner-right div, .inner-right button{
+	margin: 5px 0;
+}
+
+.inner-right span{
+	margin: 3px 0;
+}
+
+#guarantee{
+	text-align: center;
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+.overlay{
+	position: absolute;
+	z-index: 1000;
+	width: 352px;
+	height: 100px;
+	background-image: linear-gradient(to top, #2a313c, rgba(0, 0, 0, 0));
+	bottom: 585px;
+}
+
+.overlay a{
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	display: block;
+	padding-top: 70px;
+}
