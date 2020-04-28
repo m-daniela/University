@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<h1>Sign Up</h1>
+
+		<form action="processing.php" method="post">
+
+			<input type="text" class="signup email" name="email" placeholder="E-mail*"><br>
+			<input type="text" class="signup username" name="username" placeholder="Username*"><br>
+			<input type="password" class="signup password" name="password" placeholder="Password*"><br>
+			<input type="text" class="signup age" name="age" placeholder="Age"><br>
+			
+			<input type="text" class="signup webpage" name="webpage" placeholder="Webpage"><br>
+
+			<label type="text">Role:</label><br>
+			<select id="role" name="role">
+
+			</select><br>
+			<button type="submit" name="signup_btn" class="signup btn">Sign up</button>
+		</form> 
+		<a href="index.html">Already have an account? Log in.</a><br>
+		<a href="browse.php">Browse users.</a>
+	</div>
+
+	<script type="text/javascript" src="roles.js"></script>
+
+</body>
+</html>
