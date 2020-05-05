@@ -1,0 +1,5 @@
+rootProject.name = 'Book-Store-REST'
+include 'client'
+include 'core'
+include 'web'
+
