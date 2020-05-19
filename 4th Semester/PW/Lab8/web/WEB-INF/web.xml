@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>LogInController</servlet-name>
+        <servlet-class>web.controller.LogInController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PictureController</servlet-name>
+        <servlet-class>web.controller.PictureController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SignUpController</servlet-name>
+        <servlet-class>web.controller.SignUpController</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>LogInController</servlet-name>
+        <url-pattern>/LogInController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PictureController</servlet-name>
+        <url-pattern>/PictureController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignUpController</servlet-name>
+        <url-pattern>/SignUpController</url-pattern>
+    </servlet-mapping>
+</web-app>
+
