@@ -1,0 +1,8 @@
+Input: ['temperature', 100.0, 'capacity', 9.0]
+Values for the aggregated regions: {'small': 0.5, 'medium': 0.0, 'high': 0.0}
+Result: 3.625
+
+Input: ['temperature', 40.0, 'capacity', 6.0]
+Values for the aggregated regions: {'small': 0.0, 'medium': 0.5, 'high': 0.2}
+Result: 10.753968253968257
+
