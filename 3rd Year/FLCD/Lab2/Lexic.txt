@@ -1,0 +1,31 @@
+
+1. Lexic
+Alphabet
+
+a. upper (A-Z) and lower case letters (a-z) of the English alphabet
+b. special characters (_)
+c. decimal digits (0-9)
+
+1. Lexic
+
+a. Special symbols for
+- operators: +, -, *, /, ==, <, >, <=, >=, !=, &&, ||, %, !
+- separators: [], {}, ;, ,, space
+- reserved words: number, string, char, bool, void, const, while, for, if, else, elsif, function, read, write, in, stop
+
+b. Identifiers
+- sequence of letters, digits, underscores where the first character is a letter, following the rule:
+
+identifier = letter {seq}
+seq = letter | digit | "_"
+letter = "A" |...| "Z" | "a" | ... | "z"
+digit = "0" | ... | "9"
+
+c. constants
+
+1. integers: number = 0 | ["+" | "-"] ("1" | ... | "9") {"0" | "1" | ... | "9"}
+2. characters: char = "'" uppercase | lowercase | digit | specialChar "'"
+3. strings: string = """{uppercase | lowercase | digit | specialChar}"""
+4. boolean: "true" | "false"
+
+and posNumber = 0 | ("1" | ... | "9") {"0" | "1" | ... | "9"}

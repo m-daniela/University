@@ -1,0 +1,56 @@
+
+
+// 1. gcd of 2 numbers
+
+function void main (){
+	number a = read();
+	number b = read();
+	while (b != 0){
+		number aux = b;
+		b = a % b;
+		a = aux;
+	}
+	write(a);
+}
+
+
+// 2. concatenation of the elements of an array of strings
+
+function void main (){
+	string[2] arr = ["lorem", "ipsum"];
+	string result = "";
+	for (string element in arr){
+		result += element;
+	}
+	write(result);
+}
+
+
+// 3. max of 3 numbers
+
+function void main(){
+	number a = read();
+	number b = read();
+	number c = read();
+	if (a >= b && a >= c){
+		write(a);
+	}
+	elseif(b >= a && b >= c){
+		write(b);
+	}
+	else{
+		write(c);
+	}
+}
+
+
+// 4. errors
+
+function void main (){
+	// 3c not permitted
+	// quotation not closed
+	string 3c = "abcd;
+	// when defining char, only one character is permitted
+	char c = 'abcd';
+	write(3c + cc);
+}

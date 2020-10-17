@@ -1,0 +1,29 @@
+
+2. Syntax
+
+program ::= functionDecl "{" decllist ";" statementList "}"
+
+decllist ::= declaration | arrayDecl | declaration ";" decllist
+declaration ::= (type | constType) identifier ";"
+
+arrayDecl ::= type | constType "[" posNumber "]" identifier
+arrayAccess ::= identifier "[" posNumber | identifier "]"
+
+type ::= "number" | "char" | "string" | "bool"
+constType ::= "const" type
+
+statementList ::= statement ";" | statement ";" statementList
+statement ::= simpleStatement | structStatement
+simpleStatement ::= assignmentStatement | IOStatement
+assignmentStatement ::= [type | constType] identifier "=" expression 
+IOStatement ::= ("read" | "write") "(" identifier | constant ")"
+structStatement ::= ifStatement | whileStatement | forStatement
+ifStatement ::= "if" "(" condition ")" "{" statementList "}" ["elseif" "(" condition ")" "{" statementList "}"] ["else" "{" statementList "}"]
+whileStatement ::= "while" "(" expression ")" "{" statementList "}"
+forStatement ::= "for" "(" forExpression ")" "{" statementList "}"
+expression ::= identifier | constant | arrayAccess | expression operation expression
+forExpression ::= [type] identifier "in" (identifier | constant) | assignmentStatement ";" condition ; number
+
+condition ::= expression relation expression
+operation ::=  "+" | "-" | "*" |  "/" | "%" | "!"
+relation ::= "<" | "<=" | "==" | "!=" | ">=" | ">"
