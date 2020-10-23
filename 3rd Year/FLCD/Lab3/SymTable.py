@@ -12,7 +12,9 @@ class SymTable:
         return char_sum % self.__size
 
     def insert(self, element):
-        self.__table[self.hashfun(element)].append(element)
+        position = self.hashfun(element)
+        if element not in self.__table[position]:
+            self.__table[position].append(element)
 
     def lookup(self, position_table, position_list):
         try:
@@ -42,6 +44,8 @@ class SymTable:
 def testing():
     print("Testing")
     symtab = SymTable(50)
+    symtab.insert("a")
+    # "a" will not appear twice
     symtab.insert("a")
     symtab.insert("b")
     symtab.insert("aux")
