@@ -1,0 +1,10 @@
+function void main (){
+	number a = read();
+	number b = read();
+	while (b != 0){
+		number aux = b;
+		b = a % b;
+		a = aux;
+	}
+	write(a);
+}
