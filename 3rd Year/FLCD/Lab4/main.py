@@ -1,7 +1,13 @@
-from flcd.Tokenization import Tokenization
+from CustomException import CustomException
+from Scanner import Scanner
+from SymTable import SymTable
 
 if __name__ == "__main__":
-    tokens = Tokenization("pif.txt")
-    tokens.read_file("p1.txt")
-    tokens.get_reserved()
-    tokens.scan()
+    try:
+        symtab = SymTable(50)
+        scanner = Scanner(symtab)
+        scanner.read_file("files/p1.txt")
+        scanner.scan()
+        scanner.write_file()
+    except CustomException as e:
+        print(e)

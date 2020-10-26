@@ -72,5 +72,5 @@ def testing():
     assert symtab.lookup(30, 1) is None
 
 
-if __name__ == "__main__":
-    testing()
+# if __name__ == "__main__":
+#     testing()
