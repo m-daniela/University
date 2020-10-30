@@ -1,5 +1,5 @@
 function void main (){
-	number aw = read();
+	number a = read();
 	number b = read();
 	while (b != 0){
 		number aux = b;

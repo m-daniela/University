@@ -6,7 +6,7 @@ if __name__ == "__main__":
     try:
         symtab = SymTable(50)
         scanner = Scanner(symtab)
-        scanner.read_file("files/p1.txt")
+        scanner.read_file("files/perr.txt")
         scanner.scan()
         scanner.write_file()
     except CustomException as e:

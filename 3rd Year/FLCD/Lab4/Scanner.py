@@ -19,7 +19,7 @@ class Scanner:
             self.__lines = f.readlines()
 
     # saves the reserved words, operators and separators
-    # each the elements of each category are grouped
+    # the elements of each category are grouped
     # after the file is parsed, the operators are split
     # into simple and compound operators, so they will be easier to find
     # in: name of the file
@@ -70,10 +70,18 @@ class Scanner:
                 if re.search(regex, token):
                     split_by, position = re.search(regex, token).group(), re.search(regex, token).start()
                     new_line_list = token.split(split_by)
-                    if position != 0:
-                        list_tokens.append(new_line_list[0])
-                    list_tokens.append(split_by)
-                    self.splitter(new_line_list[1:], list_tokens, regex)
+
+                    if (split_by is "-" or split_by is "+") and new_line_list[0] is "":
+                        split_by = f"{split_by}{new_line_list[1]}"
+                        if new_line_list[1] is "0":
+                            raise CustomException(f"Lexical error: token {split_by}")
+                        else:
+                            list_tokens.append(split_by)
+                    else:
+                        if position != 0:
+                            list_tokens.append(new_line_list[0])
+                        list_tokens.append(split_by)
+                        self.splitter(new_line_list[1:], list_tokens, regex)
                 else:
                     list_tokens.append(token)
             except ValueError as e:
@@ -97,21 +105,23 @@ class Scanner:
     # it and classifies the values returned by the detect_tokens function
     def scan(self):
         for line_nr, line in enumerate(self.__lines):
-            line_tokens = line.strip().split(" ")
-            parsed_line = self.detect_tokens(line_tokens)
+            try:
+                line_tokens = line.strip().split(" ")
+                parsed_line = self.detect_tokens(line_tokens)
 
-            for token in parsed_line:
-                if token != "":
-                    if token in self.__reserved_words or token in self.__separators \
-                            or token in self.__compound_operators or token in self.__simple_operators:
-                        self.__pif.append((token, -1))
-                    else:
-                        if self.check_identifier(token) or self.check_constant(token):
-                            self.__symbol_table.insert(token)
-                            self.__pif.append((token, self.__symbol_table.get_position(token)))
+                for token in parsed_line:
+                    if token != "":
+                        if token in self.__reserved_words or token in self.__separators \
+                                or token in self.__compound_operators or token in self.__simple_operators:
+                            self.__pif.append((token, -1))
                         else:
-                            raise CustomException(f"Lexical error on line {line_nr}: {token}")
-
+                            if self.check_identifier(token) or self.check_constant(token):
+                                self.__symbol_table.insert(token)
+                                self.__pif.append((token, self.__symbol_table.get_position(token)))
+                            else:
+                                raise CustomException(f"Lexical error: token {token}")
+            except Exception as e:
+                raise CustomException(f"{e} line {line_nr}")
         print("Lexically correct")
 
     # saves both the Program Internal Form and the Symbol Table to separate files
