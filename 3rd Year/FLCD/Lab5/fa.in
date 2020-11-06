@@ -1,0 +1,5 @@
+Q=p q r
+S=a b
+q0=p
+F=r
+D=p a-q;q a-q;q b-r;p b-r q;p b-p
