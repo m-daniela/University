@@ -1,0 +1,5 @@
+Q=p1 q1 r1
+S=' 0 1 2 3 4 5 6 7 8 9 + - a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9 ! @ # $ % ^ & *
+q0=p1
+F=p1
+D=p1 '~r1;q1 0~r1;q1 1~r1;q1 2~r1;q1 3~r1;q1 4~r1;q1 5~r1;q1 6~r1;q1 7~r1;q1 8~r1;q1 9~r1;q1 +~r1;q1 -~r1;q1 a~r1;q1 b~r1;q1 c~r1;q1 d~r1;q1 e~r1;q1 f~r1;q1 g~r1;q1 h~r1;q1 i~r1;q1 j~r1;q1 k~r1;q1 l~r1;q1 m~r1;q1 n~r1;q1 o~r1;q1 p~r1;q1 q~r1;q1 r~r1;q1 s~r1;q1 t~r1;q1 u~r1;q1 v~r1;q1 w~r1;q1 x~r1;q1 y~r1;q1 z~r1;q1 A~r1;q1 B~r1;q1 C~r1;q1 D~r1;q1 E~r1;q1 F~r1;q1 G~r1;q1 H~r1;q1 I~r1;q1 J~r1;q1 K~r1;q1 L~r1;q1 M~r1;q1 N~r1;q1 O~r1;q1 P~r1;q1 Q~r1;q1 R~r1;q1 S~r1;q1 T~r1;q1 U~r1;q1 V~r1;q1 W~r1;q1 X~r1;q1 Y~r1;q1 Z~r1;q1 0~r1;q1 1~r1;q1 2~r1;q1 3~r1;q1 4~r1;q1 5~r1;q1 6~r1;q1 7~r1;q1 8~r1;q1 9~r1;q1 !~r1;q1 @~r1;q1 #~r1;q1 $~r1;q1 %~r1;q1 ^~r1;q1 &~r1;q1 *~r1;r1 '~p1
