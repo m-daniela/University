@@ -1,3 +1,6 @@
+from Lab5.RDParser import Configuration, RDParser, WorkingElement
+from Lab5.ParserOutput import ParseTree
+
 
 class Grammar:
     def __init__(self):
@@ -12,7 +15,6 @@ class Grammar:
 
         self.non_term = (lines[0].strip().split("=", 1)[1:])[0].split(" ")
         self.terminals = (lines[1].strip().split("=", 1)[1:])[0].split(" ")
-        self.terminals.append(" ")
         self.starting = (lines[2].strip().split("=", 1)[1:])[0].split(" ")[0]
         local_productions = (lines[3].strip().split("=", 1)[1:])[0].split(";")
 
@@ -85,6 +87,30 @@ class Console:
 
 if __name__ == "__main__":
     grammar = Grammar()
-    grammar.read_file("g2.txt")
-    console = Console(grammar)
-    console.run()
+    grammar.read_file("g3.txt")
+
+    s = WorkingElement("NonTerminal", "S", 1)
+
+    state = "q"
+    i = 1
+    alpha = []
+    beta = [""]
+    config = Configuration(state, i, alpha, beta)
+    parser = RDParser(grammar, config)
+    parser.drp()
+
+    print(config)
+
+    # parse table
+
+    # s1 = WorkingElement("NonTerminal", "S", 1)
+    # s2 = WorkingElement("NonTerminal", "S", 2)
+    # s3 = WorkingElement("NonTerminal", "S", 3)
+    # s32 = WorkingElement("NonTerminal", "S", 3)
+    # l = [s1, s2, s3, s32]
+    # yes = ParseTree(grammar, s1, l)
+    # yes.create_table()
+
+
+    # console = Console(grammar)
+    # console.run()
