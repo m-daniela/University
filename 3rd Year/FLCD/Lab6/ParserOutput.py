@@ -22,10 +22,8 @@ class ParseTree:
 
     def create_table(self):
         # bfs
-        element = self.root.element
-        index = self.root.index
         # create the root node and add it to the tree
-        root_node = Node(f"{element}{index}", -1, -1, None, -1, self.index)
+        root_node = Node(str(self.root), -1, -1, None, -1, self.index)
         self.index += 1
         a_tree = [root_node]
 
@@ -40,23 +38,23 @@ class ParseTree:
             element = working_element.element
             index = working_element.index
             # get the production for the non-terminal and the corresponding index
-            production = self.grammar.get_productions_for_non_terminal(element)[index - 1]
+            production = self.grammar.get_productions_for_non_terminal(element)[index]
             waiting = []
             line = []
             for i, p in enumerate(production):
                 node = None
                 # terminal node
                 if p in self.grammar.terminals:
-                    node = Node(f"{p}", -1, -1, f"{element}{index}", father_index, self.index)
+                    node = Node(str(p), -1, -1, str(working_element), father_index, self.index)
 
                 # non-terminal node, pop from the string of productions
                 # append to the waiting list with the index of the node to continue to the next level of the tree
                 elif p in self.grammar.non_term:
                     try:
                         we = self.productions.pop(0)
-                        element = we.element
-                        index = we.index
-                        node = Node(f"{element}{index}", -1, -1, f"{element}{index}", father_index, self.index)
+                        # element = we.element
+                        # index = we.index
+                        node = Node(str(we), -1, -1, str(working_element), father_index, self.index)
                         waiting.append((we, self.index))
 
                     except Exception as e:
@@ -92,79 +90,8 @@ class ParseTree:
         table = ""
         for node in self.tree:
             table += f"{str(node)}\n"
+        print("\nParse tree as table\n")
         print(table)
-        with open("out.txt", "w") as f:
+        with open("files/out.txt", "w") as f:
             f.write(table)
 
-    # def create_table1(self):
-    #     a_tree = []
-    #     element = self.root.element
-    #     index = self.root.index
-    #
-    #     def recursive_create(working_element, previous, left, right):
-    #         element = working_element.element
-    #         index = working_element.index
-    #         production = self.grammar.get_productions_for_non_terminal(element)[index - 1]
-    #         chd = []
-    #
-    #         for i, p in enumerate(production):
-    #             if p in self.grammar.terminals:
-    #                 chd.append(p)
-    #                 node = Node(f"{p}", production[:i], production[i+1:], f"{element}{index}", [])
-    #                 a_tree.append(node)
-    #             elif p in self.grammar.non_term:
-    #                 try:
-    #                     we = self.productions.pop(0)
-    #                     chd.append(str(we))
-    #                     recursive_create(we, working_element, production[:i], production[i+1:])
-    #                 except Exception as e:
-    #                     print(e)
-    #
-    #         node = Node(f"{element}{index}", [], [], str(previous), chd)
-    #         a_tree.append(node)
-    #
-    #     current = self.productions.pop(0)
-    #     recursive_create(current, None, [], [])
-    #
-    #     for node in a_tree:
-    #         print(node)
-    #         print()
-    #         print()
-    #
-    #
-    # def create_table2(self):
-    #     ## saved in order - dfs
-    #     a_tree = []
-    #     element = self.root.element
-    #     index = self.root.index
-    #
-    #     def recursive_create(working_element, previous, left, right):
-    #         element = working_element.element
-    #         index = working_element.index
-    #         production = self.grammar.get_productions_for_non_terminal(element)[index - 1]
-    #         chd = []
-    #
-    #         node = Node(f"{element}{index}", left, right, str(previous), production, self.index)
-    #         self.index += 1
-    #         a_tree.append(node)
-    #         for i, p in enumerate(production):
-    #             if p in self.grammar.terminals:
-    #                 # chd.append(p)
-    #                 node = Node(f"{p}", production[:i], production[i+1:], f"{element}{index}", [], self.index)
-    #                 self.index += 1
-    #                 a_tree.append(node)
-    #             elif p in self.grammar.non_term:
-    #                 try:
-    #                     we = self.productions.pop(0)
-    #                     # chd.append(str(we))
-    #                     recursive_create(we, working_element, production[:i], production[i+1:])
-    #                 except Exception as e:
-    #                     print(e)
-    #
-    #     current = self.productions.pop(0)
-    #     recursive_create(current, None, [], [])
-    #
-    #     for node in a_tree:
-    #         print(node)
-    #         print()
-    #         print()

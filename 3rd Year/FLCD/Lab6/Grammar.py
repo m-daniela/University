@@ -52,54 +52,27 @@ class Grammar:
         except KeyError:
             return []
 
-class Console:
-    def __init__(self, finite_automata):
-        self.commands = {"0": lambda: exit(0),
-                         "1": lambda: finite_automata.get_non_term(),
-                         "2": lambda: finite_automata.get_terminals(),
-                         "3": lambda: finite_automata.get_starting(),
-                         "4": lambda: finite_automata.get_productions(),
-                         "5": lambda x: finite_automata.get_productions_for_non_terminal(x),
-                         }
-
-        self.menu = """
-        0. Exit
-        1. Get non terminals
-        2. Get terminals
-        3. Get starting symbol
-        4. Get productions
-        5. Get productions for a non-terminal
-        """
-
-    def run(self):
-        while True:
-            print(self.menu)
-            try:
-                choice = input("Your command: ")
-                if choice == "5":
-                    nt = input("Give non-terminal ")
-                    print(self.commands[choice](nt))
-                else:
-                    print(self.commands[choice]())
-            except KeyError:
-                print("Wrong command")
 
 
-if __name__ == "__main__":
-    grammar = Grammar()
-    grammar.read_file("g3.txt")
-
-    s = WorkingElement("NonTerminal", "S", 1)
-
-    state = "q"
-    i = 1
-    alpha = []
-    beta = [""]
-    config = Configuration(state, i, alpha, beta)
-    parser = RDParser(grammar, config)
-    parser.drp()
-
-    print(config)
+# if __name__ == "__main__":
+#     grammar = Grammar()
+#     grammar.read_file("g3.txt")
+#
+#     s = WorkingElement("NonTerminal", "S", 1)
+#
+#     state = "q"
+#     i = 0
+#     alpha = []
+#     beta = ["S"]
+#     config = Configuration(state, i, alpha, beta)
+#     w = ["a", "a", "c", "b", "c"]
+#     parser = RDParser(grammar, config, w)
+#     prod_string = parser.drp()
+#     for item in prod_string:
+#         print(item)
+#
+#     yes = ParseTree(grammar, prod_string[0], prod_string)
+#     yes.create_table()
 
     # parse table
 
@@ -108,8 +81,12 @@ if __name__ == "__main__":
     # s3 = WorkingElement("NonTerminal", "S", 3)
     # s32 = WorkingElement("NonTerminal", "S", 3)
     # l = [s1, s2, s3, s32]
+    #
     # yes = ParseTree(grammar, s1, l)
     # yes.create_table()
+
+
+
 
 
     # console = Console(grammar)
