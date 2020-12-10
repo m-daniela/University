@@ -1,9 +1,6 @@
-from flcd.CustomException import CustomException
 from flcd.Lab5.Grammar import Grammar
 from flcd.Lab5.ParserOutput import ParseTree
 from flcd.Lab5.RDParser import Configuration, RDParser
-from flcd.Scanner import Scanner
-from flcd.SymTable import SymTable
 
 
 class Console:
@@ -49,33 +46,28 @@ class Console:
 
 
 if __name__ == "__main__":
-    try:
-        symtab = SymTable(50)
-        scanner = Scanner(symtab)
-        scanner.read_file("files/p1.txt")
-        scanner.scan()
-        scanner.write_file()
+    grammar = Grammar()
 
-        grammar = Grammar()
+    # filename = "files/seq.in"
+    filename = "../files/pif.out"
 
-        filename = "./Lab5/files/seq.in"
-        # filename = "files/pif.out"
+    # grammar.read_file("files/g1.in")
+    grammar.read_file("files/g2m.txt")
 
-        grammar.read_file("./Lab5/files/g1.in")
-        # grammar.read_file("./Lab5/files/g2m.txt")
+    # initial configuration for Parser
+    state = "q"
+    i = 0
+    alpha = []
+    beta = [grammar.get_starting()]
 
-        # initial configuration for Parser
-        state = "q"
-        i = 0
-        alpha = []
-        beta = [grammar.get_starting()]
+    config = Configuration(state, i, alpha, beta)
 
-        config = Configuration(state, i, alpha, beta)
+    parser = RDParser(grammar, config, filename)
 
-        parser = RDParser(grammar, config, filename)
+    console = Console(grammar, parser)
+    console.run()
 
-        console = Console(grammar, parser)
-        console.run()
-
-    except CustomException as e:
-        print(e)
+    # str = ""
+    # for x in range(44):
+    #     str += f"{x} "
+    # print(str)
