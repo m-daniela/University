@@ -33,6 +33,7 @@ class RDParser:
         self.configuration = configuration
         self.input_seq = []
         self.read_input(filename)
+        self.error_place = None
 
     def read_input(self, filename):
         with open(filename, "r") as f:
@@ -45,9 +46,9 @@ class RDParser:
 
     def drp(self):
         n = len(self.input_seq)
-        print(self.input_seq, n)
+        print(self.input_seq)
         # return
-        # print(f"Initial: {self.configuration}")
+        print(f"Initial: {self.configuration}")
         # while s != f and s != e
         while self.configuration.state != "f" and self.configuration.state != "e":
             # if s == q
@@ -83,7 +84,7 @@ class RDParser:
                         self.error()
 
         if self.configuration.state == "e":
-            print("Error")
+            print(f"Error")
         else:
             print("Sequence accepted")
             return self.get_production_string()

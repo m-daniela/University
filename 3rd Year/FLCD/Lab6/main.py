@@ -38,10 +38,11 @@ class Console:
                 elif choice == "6":
                     try:
                         prod_string = parser.drp()
+                        # print("can we die")
                         parse_table = ParseTree(grammar, prod_string[0], prod_string)
                         parse_table.create_table()
-                    except Exception:
-                        pass
+                    except Exception as e:
+                        print(e)
                 else:
                     print(self.commands[choice]())
             except KeyError:
@@ -58,11 +59,11 @@ if __name__ == "__main__":
 
         grammar = Grammar()
 
-        filename = "./Lab5/files/seq.in"
-        # filename = "files/pif.out"
+        # filename = "./Lab5/files/seq.in"
+        filename = "files/pif.out"
 
-        grammar.read_file("./Lab5/files/g1.in")
-        # grammar.read_file("./Lab5/files/g2m.txt")
+        # grammar.read_file("./Lab5/files/g1.in")
+        grammar.read_file("./Lab5/files/g2m.txt")
 
         # initial configuration for Parser
         state = "q"

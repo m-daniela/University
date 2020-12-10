@@ -49,7 +49,7 @@ if __name__ == "__main__":
     grammar = Grammar()
 
     # filename = "files/seq.in"
-    filename = "../files/pif.out"
+    # filename = "../files/pif.out"
 
     # grammar.read_file("files/g1.in")
     grammar.read_file("files/g2m.txt")

@@ -1,7 +1,10 @@
-N=program functionDecl simpleExpression declList declaration arrayDecl arrayAccess type constType statementList statement simpleStatement assignmentStatement IOStatement structStatement ifStatement whileStatement forStatement expression forExpression condition operation relation
+N=program functionDecl simpleExpression operationalExpression declList declaration arrayDecl arrayAccess type constType statementList statement simpleStatement assignmentStatement IOStatement structStatement ifStatement whileStatement forStatement expression forExpression condition operation relation
 Si=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43
 S=program
-P=program->functionDecl,21,statementList,22|functionDecl,21,declList,24,statementList,22:functionDecl->37,30,0,17,18:declList->declaration|arrayDecl|declaration,24,declList:declaration->type,0,24|constType,0,24:arrayDecl->type,19,1,20,0|constType,19,1,20,0:arrayAccess->0,19,1,20|0,19,0,20:type->26|27|28|29:constType->31,type:statementList->statement,24,statementList|statement,24:statement->simpleStatement|structStatement:simpleStatement->assignmentStatement|IOStatement:assignmentStatement->type,0,2,IOStatement|0,2,IOStatement|type,0,2,simpleExpression|constType,0,2,simpleExpression|0,2,simpleExpression:IOStatement->38,17,18|39,17,1,18|39,17,0,18:structStatement->ifStatement|whileStatement|forStatement:ifStatement->34,17,condition,18,21,statementList,22|34,17,condition,18,21,statementList,22,36,17,condition,18,21,statementList,22|34,17,condition,18,21,statementList,22,36,17,condition,18,21,statementList,22,35,21,statementList,22|34,17,condition,18,21,statementList,22,35,21,statementList,22:whileStatement->32,17,condition,18,21,statementList,22:forStatement->33,17,forExpression,18,21,statementList,22:simpleExpression->0|1|arrayAccess:expression->simpleExpression|expression,operation,expression:forExpression->0,40,0|type,0,40,0|0,40,1|type,0,40,1|assignmentStatement,24,condition,1:condition->simpleExpression,relation,simpleExpression:operation->3|4|5|6|15|16:relation->7|8|9|10|11|12|13|14
+P=program->functionDecl,21,statementList,22|functionDecl,21,declList,24,statementList,22:functionDecl->37,30,0,17,18:declList->declaration|arrayDecl|declaration,24,declList:declaration->type,0,24|constType,0,24:arrayDecl->type,19,1,20,0|constType,19,1,20,0:arrayAccess->0,19,1,20|0,19,0,20:type->26|27|28|29:constType->31,type:statementList->statement,24,statementList|statement,24:statement->simpleStatement|structStatement:simpleStatement->assignmentStatement|IOStatement:assignmentStatement->type,0,2,IOStatement|0,2,IOStatement|type,0,2,simpleExpression|constType,0,2,simpleExpression|0,2,simpleExpression|0,2,operationalExpression|type,0,2,operationalExpression|constType,0,2,operationalExpression:operationalExpression->simpleExpression,operation,simpleExpression:IOStatement->38,17,18|39,17,1,18|39,17,0,18:structStatement->ifStatement|whileStatement|forStatement:ifStatement->34,17,condition,18,21,statementList,22|34,17,condition,18,21,statementList,22,36,17,condition,18,21,statementList,22|34,17,condition,18,21,statementList,22,36,17,condition,18,21,statementList,22,35,21,statementList,22|34,17,condition,18,21,statementList,22,35,21,statementList,22:whileStatement->32,17,condition,18,21,statementList,22:forStatement->33,17,forExpression,18,21,statementList,22:simpleExpression->0|1|arrayAccess:expression->simpleExpression|expression,operation,expression:forExpression->0,40,0|type,0,40,0|0,40,1|type,0,40,1|assignmentStatement,24,condition,1:condition->simpleExpression,relation,simpleExpression:operation->3|4|5|6|15|16:relation->7|8|9|10|11|12|13|14
+
+
+
 
 
 program->functionDecl,21,statementList,22|functionDecl,21,declList,24,statementList,22:
@@ -15,15 +18,17 @@ constType->31,type:
 statementList->statement,24,statementList|statement,24:
 statement->simpleStatement|structStatement:
 simpleStatement->assignmentStatement|IOStatement:
-assignmentStatement->type,0,2,IOStatement|0,2,IOStatement|type,0,2,expression|constType,0,2,expression|0,2,expression:
+assignmentStatement->type,0,2,IOStatement|0,2,IOStatement|type,0,2,simpleExpression|constType,0,2,simpleExpression|0,2,simpleExpression|0,2,:
 IOStatement->38,17,18|39,17,1,18|39,17,0,18:
 structStatement->ifStatement|whileStatement|forStatement:
 ifStatement->34,17,condition,18,21,statementList,22|34,17,condition,18,21,statementList,22,36,17,condition,18,21,statementList,22|34,17,condition,18,21,statementList,22,36,17,condition,18,21,statementList,22,35,21,statementList,22|34,17,condition,18,21,statementList,22,35,21,statementList,22:
+
 whileStatement->32,17,condition,18,21,statementList,22:
+
 forStatement->33,17,forExpression,18,21,statementList,22:
 simpleExpression->0|1|arrayAccess:
 expression->simpleExpression|expression,operation,expression:
-
+operationalExpression->simpleExpression,operation,simpleExpression:
 forExpression->0,40,0|type,0,40,0|0,40,1|type,0,40,1|assignmentStatement,24,condition,1:
 condition->simpleExpression,relation,simpleExpression:
 operation->3|4|5|6|15|16:
