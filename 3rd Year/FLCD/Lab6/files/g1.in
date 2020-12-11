@@ -1,4 +1,0 @@
-N=S
-Si=a b c
-S=S
-P=S->a,S,b,S|a,S|c

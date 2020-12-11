@@ -6,6 +6,6 @@ function void main (){
 		number aux = b;
 		b = a % b;
 		a = aux;
-	};
+	}
 	write(a);
 }

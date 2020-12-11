@@ -38,7 +38,6 @@ class Console:
                 elif choice == "6":
                     try:
                         prod_string = parser.drp()
-                        # print("can we die")
                         parse_table = ParseTree(grammar, prod_string[0], prod_string)
                         parse_table.create_table()
                     except Exception as e:
@@ -50,20 +49,28 @@ class Console:
 
 
 if __name__ == "__main__":
+    print("""
+    1. Sequence
+    2. Program
+    """)
     try:
-        symtab = SymTable(50)
-        scanner = Scanner(symtab)
-        scanner.read_file("files/p1.txt")
-        scanner.scan()
-        scanner.write_file()
+        choice = input("Choice: ")
 
         grammar = Grammar()
 
-        # filename = "./Lab5/files/seq.in"
-        filename = "files/pif.out"
-
-        # grammar.read_file("./Lab5/files/g1.in")
-        grammar.read_file("./Lab5/files/g2m.txt")
+        if choice == "1":
+            filename = "./Lab5/files/seq.in"
+            grammar.read_file("./Lab5/files/g1.in")
+        elif choice == "2":
+            symtab = SymTable(50)
+            scanner = Scanner(symtab)
+            scanner.read_file("files/p1.txt")
+            scanner.scan()
+            scanner.write_file()
+            filename = "files/pif.out"
+            grammar.read_file("./Lab5/files/g2m.txt")
+        else:
+            raise CustomException("Wrong command")
 
         # initial configuration for Parser
         state = "q"
