@@ -1,0 +1,14 @@
+function void main(){
+	number a = read();
+	number b = read();
+	number c = read();
+	if (a >= b && a >= c){
+		write(a);
+	}
+	elseif(b >= a && b >= c){
+		write(b);
+	}
+	else{
+		write(c);
+	}
+}
