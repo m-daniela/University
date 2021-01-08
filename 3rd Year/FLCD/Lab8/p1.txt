@@ -1,6 +1,6 @@
 
-function void main (){
-	number @e = 34;
+function void main(){
+	number e = 34;
 	number a = read();
 	number b = read();
 	while (b != 0){

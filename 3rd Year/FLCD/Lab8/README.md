@@ -4,6 +4,7 @@
 
 ```bash
 flex spec.lxi
-gcc lex.yy.c -o result
+bison -d lang.y
+gcc lex.yy.c lang.tab.c -o result
 result < input.txt
 ```
