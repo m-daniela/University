@@ -94,7 +94,8 @@ simpleExpression:     IDENTIFIER | CONSTANT | arrayAccess;
 forExpression:     simpleExpression IN simpleExpression 
 	| type simpleExpression IN simpleExpression 
 	| assignmentStatement SEMICOL condition SEMICOL CONSTANT;
-condition:     simpleExpression relation simpleExpression;
+condition:     simpleExpression relation simpleExpression
+	| condition relation condition;
 operation:     PLUS | MINUS | MULTIPLY | DIVIDE | MOD | NOT;
 relation:     EQQ | LT | GT | LE | GE | DIFF | AND | OR;
 
