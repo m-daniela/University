@@ -1,0 +1,48 @@
+﻿@using Lab9.Models
+@model Lab9.Models.User
+@{
+    ViewBag.Title = "LogIn";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+    @using (Html.BeginForm("LogIn", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+    {
+
+        @*@Html.AntiForgeryToken()*@
+        <div class="container">
+            @*@Html.ValidationSummary(true)*@
+            <h1>Log In</h1>
+            <p id="error">@TempData["msg"]</p>
+            @using (Html.BeginForm("LogIn", "Account", FormMethod.Post))
+            {
+                <form>
+                    <input type="text" name="username" placeholder="Username"><br>
+                    <input type="password" name="password" placeholder="Password"><br>
+                    <button type="submit" name="submit" value="login">Log In</button>
+                </form>
+
+            }
+
+            @Html.ActionLink("Create an account", "SignUp")
+        </div>
+    }
+    <script>
+        @*$(document).ready(function () {
+            console.log(@TempData["msg"]);
+                $("#error").html(@TempData["msg"]);
+            });*@
+    </script>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</body>
+</html>

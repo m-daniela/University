@@ -1,0 +1,753 @@
+lab 1 - html
+
+Create a single HTML web page for a subject you like (e.g. personal home page, photo collection, movie stars, cars etc.). You can NOT use any CSS or Javascript on your web page! Only basic HTML language. The web page should be HTML5 valid. You will have to use the following HTML tags in your web page: <img>,<a>,<table>,<br>,<hr>,<p>,<b>,<div>,<ul>, <li>,<section>,<article>,<footer>,<header>,<aside>,<nav>, <svg>,<audio>,<video>,<figure>,<figurecaption>,<main>. Also you should specify the type of document using <!Doctype>. The page must be at least one screen long and at most 2 screens long (using a resolution of 1024x768 pixels). The textual content of the page should be relevant to the chosen subject (not "lorem ipsum" text). <br/><br/> This single web page can be edited using any editor you want and can be presented on any browser you prefer. 
+
+lab 2 - all problems - css
+<div class="panel-body" id="allproblems-panel"><p class="paragraph-problem"><span>1. Write a web page in which display using style sheets the
+3D button push effect when the mouse is over it. Develop two
+versions of this effect.
+<br>
+<br>
+14. Write a web page which should contain on a row several thumbnail images
+and above that row should contain a larger image. If the mouse is over
+a thumbnail image, the larger version of that image should appear above it.</span><br></p>
+
+
+<p class="paragraph-problem"><span>10. Write a web page which contains a horizontal line in the middle of
+the page. The top side of the page should be colored with a red based
+gradient which should be fully transparent in the middle of the screen.
+The bottom side of the page should be colored with a blue based gradient
+which should be fully transparent in the middle of the screen.
+<br>
+<br>
+23. Write a web page which contains a div with a blue background color located
+on the top left corner of the page. When the mouse is over it the div should
+move to the bottom right corner of the page. The div should not jump directly 
+to the bottom right corner. During this transition, the background color
+of the div should transition from blue to full red.
+</span><br></p>
+
+
+<p class="paragraph-problem"><span>11. Write a web page which contains a div which is colored with a gradient
+color that is fully transparent on the left and right sides and opaque in 
+the center.
+<br>
+<br>
+24. Write a web page which contains a div with a blue background color located
+on the top left corner of the page. When the mouse is over it the div should
+move to the bottom right corner of the page. The div should not jump directly 
+to the bottom right corner. During this transition, the background color
+of the div should transition from blue to full red.
+</span><br></p>
+
+
+<p class="paragraph-problem"><span>12. Write a web page with a squared box built using 4 lines (which are divs).
+Each line/div should be fully transparent at the edges (i.e. the corners
+of the box are transparent).
+<br>
+<br>
+25. Write a web page which contains a ball (rounded shape, do not use an image 
+for this) on top of the page. When the mouse is over the ball, it should drop to 
+the bottom of the page and keep jumping continuously. 
+</span><br></p>
+
+
+<p class="paragraph-problem"><span>13. Write a web page with a squared box built using 4 lines (which are divs).
+Each line/div should be fully transparent in the middle and opaque at the edges.
+<br>
+<br>
+26. Write a webpage which contains an horizontal line (an "hr" or "div" or something 
+else) on top of the page. The color of the line is blue. The line starts descending 
+on the bottom of the page (when the mouse is over it) and while descending
+the part of the web page above the line will start to be colored with a blue vertical 
+gradient color. When the line reaches the bottom of the page, all the web page is colored
+with a vertical blue gradient.
+</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>Write a web page which shows 6 circles with the same center (i.e. the
+center of the screen), but increasing radiuses so that each circle contains
+the previous one and so on. Each circle should be colored (i.e. the inner
+part of the circle) with a different color.
+<br>
+<br>
+Write a web page which should contains 4 divs in the center of the screen.
+All divs should have the same dimensions (width and height) and they should
+overlap (so that a single div is visible at a specific time). When the mouse 
+gets over the divs from the center of the screen, all 4 divs shoud transition
+to the 4 corners of the screen.
+</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>1. Write a web page in which display using style sheets the
+3D button push effect when the mouse is over it. Develop two
+versions of this effect.
+<br>
+<br>
+14. Write a web page which should contain on a row several thumbnail images
+and above that row should contain a larger image. If the mouse is over
+a thumbnail image, the larger version of that image should appear above it.</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>2. Write a web page in which you should present a vertical 
+bar graph (each bar should be displayed with a different 
+collor and it shoud have a different value/hight). The graph
+should also have a horizontal line (OX) and a vertical line (OY).
+<br>
+<br>
+15. Write a web page which should contain a rise-up horizontal menu
+(as oposed to a drop-down horizontal menu). The menu should be
+displayed in the bottom of the page and should contain at least
+5 items (displayed horizontaly, side by side) and each item 
+should contain at least 5 commands.
+</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>3. Write a web page which should contain in a table person images.
+The table should be formatted using a style sheet. When the mouse
+is over a person image a div containing information about that person 
+should pop-up. 
+<br>
+<br>
+16. Write a web page which should contain a vertical menu. The menu 
+should be displayed in the left side of the page and should contain at least
+5 items (displayed vertically, one on top of each other) and each item 
+should be expanded on the right side to a group of at least 5 commands.</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>4. Develop a web site using CSS in which you should use various text 
+effects like:
+- text glowing (i.e. white ambiental light illuminating the text)
+- text shadowing
+- text on fire
+- underline effect for each letter of a word
+<br>
+<br>
+17. Write a web page which contains a vertical menu that mimics 
+the "windows start menu". The menu is vertical and each menu
+item can contain a sumbenu in the right side and each item
+from that submenu can also expand (when the mouse is over it)
+to a submenu on the right side and so on..
+</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>5. Write a web page which displays a number of images in a table.
+The table should be formatted using a style sheet. Also when
+the mouse is over an image, the image should increase opacity
+with a specific amount.
+<br>
+<br>
+18. Write a web page which has on top of it a rainbow built using 
+divs and gradient colors. The rainbow should be tilted with an angle
+(it should not be perfectly horizontal) and the width of the rainbow
+on the left side should be smaller than the width of the rainbow on
+the right side.</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>6. Write a web page which contains a table. This table should
+be formatted using a style sheet. When the mouse is over the
+table, the table should collapse to the table header. This collape
+operation should be done with transitions/animations.
+<br>
+<br>
+19. Using divs and shadows write a web page which shows stairs in 3D.</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>7. Write a web page with a transparrent div in the center containing
+various text/information. The transparrent div should have round corners.
+When the mouse is over the div, the div should have right corners.
+<br>
+<br>
+20. Write a web page which contains a menu with five text items stacked
+vertically, one on top of each other. In the beginning all text items are
+blurred. When the mouse is over an item, it grows larger and becomes clear 
+(unblurred) so that it is emphasized with respect to the other items.
+</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>8. Write a web page which contains a div with a background image.
+When the mouse is over the div, the div should flip (turn over
+in 3D space; rotate around the OY axis in 3D).
+<br>
+<br>
+21. Write a web page which contains 4 divs one inside each other (the
+first div contains inside it all the other 3 divs, the second div contains inside
+2 divs, and the third div contains the smallest div inside it). Each div is
+colored (background color) with different colors. When the mouse is over
+the inner div (i.e. the smallest one), all divs should change their colors.
+</span><br></p>
+
+
+
+<p class="paragraph-problem"><span>9. Write a web page which contains a div with a background image.
+When the mouse is over the div, the background image should change.
+<br>
+<br>
+22. Write a web page which contains a div with a blue background color located
+on the top left corner of the page. When the mouse is over it the div should
+rotate and move to the left until it reaches the top right corner of the page.
+The div should not jump directly to the top right corner.
+</span><br></p></div>
+
+
+lab 3 - css layouts
+
+<div class="panel"><div class="panel-heading">All Problems from this lab - if you want to practice</div><div class="panel-body" id="allproblems-panel"><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.tutorialspoint.com/index.htm.
+You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://diply.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: http://cnn.com. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.nytimes.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: http://www.bbc.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.youtube.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: http://www.emag.ro/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.harvard.edu/about-harvard/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: http://www.ucla.edu/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: http://www.oracle.com/technetwork/java/index.html. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.python.org/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.amazon.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.udemy.com/the-web-developer-bootcamp/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.buzzfeed.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://twitter.com/twitter. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: https://www.msn.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p><p class="paragraph-problem"><span>Develop an html+css web document that looks like the following web page: http://www.yahoo.com/. You should clone about one screen of this web page (not the whole web page) 
+and your html document should look approximately 90% as the given web page.
+No interactivity should be added (e.g. javascript, :hover effects etc.) and
+you are not allowed to use any css or javascript library.</span><br></p></div></div>
+
+lab 5 - javascript
+<div class="panel"><div class="panel-heading">All Problems from this lab - if you want to practice</div><div class="panel-body" id="allproblems-panel"><p class="paragraph-problem"><span>Write a javascript which allows moving a tag within the html
+document through drag and drop operations.
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which displays a 3X3 matrix representing 
+the parts of a puzzle (a big image). The user must be able to
+interchange the cells of the matrix (i.e., the images from
+the matrix's cells) so that he solves the puzzle. When the user
+solves the puzzle (constructs correctly the big image) the
+message "Well done!" will be displayed. </span><br></p><p class="paragraph-problem"><span>Write a javascript which removes all the &lt;a&gt; tags from a 
+document if their href attribute begins with "http://www.scs.ubbcluj.ro".
+
+</span><br></p><p class="paragraph-problem"><span>Write a JavaScript which displays several thumbnail images
+(reduced images). When the user moves the mouse over a 
+thumbnail image, the original (bigger version) of this image
+will appear beneath. If the user moves the mouse over a different
+thumbnail, the big image will change respectively.
+</span><br></p><p class="paragraph-problem"><span>Write an HTML page that contains a table having four lines and four columns.
+The table's cells contain distinct random numbers from 1 to 15 (one of the
+cells being empty). Using JavaScript create a puzzle game that the user must
+solve. You will create a second version of the game, where numbers are replaced
+by small images, initially part of a bigger image. For slicing the original
+image in smaller pieces you may use picture editing software such as Photoshop
+or Gimp.
+</span><br></p><p class="paragraph-problem"><span>Write a HTML page which contains two lists (each with more then one line - use
+&lt;select&gt; tag).
+Double click event on an element from the first list will move this element into the second one, and reverse.
+</span><br></p><p class="paragraph-problem"><span>Using JavaScript, the HTML input tag having the text type and a select tag (combo box), 
+create an editable combo box.
+</span><br></p><p class="paragraph-problem"><span>Write a HTML page which displays a list of images. The images will be
+displayed one after another like a slideshow. The user will have the
+following possibility:
+<br>
+- to press a play/pause button; <br>
+- to select a checkbox which will replay the slideshow after displaying the
+  last picture;<br>
+- to select a numeric value from a combo box which indicates the images
+  changing time.<br>
+</span><br></p><p class="paragraph-problem"><span>Write an HTML page that contains two combo boxes. The first combo box contains a list
+of Romanian counties. The second combo box contains a list of cities within the county
+selected in the first combo box. Whenever the value in the fist combo box is changing,
+the second combo box will be update accordingly.</span><br></p><p class="paragraph-problem"><span>Write a JavaScript which will be used in an HTML document that
+contains a table having at least 3 columns and several lines. When
+the user clicks the table header the script will sort in ascending
+order the elements from the current column. If the user clicks 
+again on the column header, the elements will be sorted 
+in descending order.
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which sorts in ascending order an array of
+numbers which are introduced by the user in a "textarea" or 
+"input type=text" tag. The sorted array (which can have any length)
+will be displayed in a &lt;table&gt; with 5 columns and n/5 lines where 
+n is the length of the array.
+</span><br></p><p class="paragraph-problem"><span>Write an html document which contains 2 buttons and at least
+10 links and a javascript so that when the user clicks the first
+button the page's background will change (there are 5 background 
+images which are rotated, one at a time) and when the user clicks
+the second button the shape and color of all the links from the 
+document will change.
+
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which implements a drop-down menu with 5
+principal submenus and between 3 and 5 commponents for each submenu.
+
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which implements a vertical menu with 5
+principal submenus and between 3 and 5 commponents for each submenu.
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which will be used in an html document that
+contains a tabel with 3 columns and several lines. When
+the user clicks the table header the script will sort in ascending
+order the elements from the current column. If the user clicks 
+again on the column header, the elements will be sorted 
+in descending order. 
+
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which allows the user to play an X-0 game
+on a 3 lines, 3 columns board (table). The other player will
+be the computer (i.e., the web application).
+</span><br></p><p class="paragraph-problem"><span>Write a javascript which displays several thumbnail images
+(reduced images) and when the user moves the mouse over a 
+thumbnail image, the original (bigger version) of this image
+will appear beneath. If the user moves the mouse over a different
+thumbnail, the big image will change respectively.
+
+</span><br></p></div></div>
+
+lab 6 - jquery
+<div class="panel"><div class="panel-heading">All Problems from this lab - if you want to practice</div><div class="panel-body" id="allproblems-panel"><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Implement a puzzle with 4 rows and 4 columns using jQuery. </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which displays in the middle of the browser window
+a horizontal slider containing a list of images. The slider should
+continuously slide from the left to the right side of the browser 
+window. Each image that exits the browser window on the right side
+should enter the browser window on the left side. The sliding should
+be animated. If the user clicks on an image, the sliding is paused
+and a larger version of that window pops in the center of the browser
+window (just like images appear in the Lightbox javascript library).
+If the user clicks anywhere on this large image, the image dissapears
+and the sliding of the horizontal image bar is resumed.  </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page for a small game. The web page should display 
+at random times images placed in random positions on the browser window. 
+Each image lasts on the browser window for a short period of time
+and then it dissapears. If the user clicks an image before it
+dissapears, he/she gets a point. The game ends when the user
+wins 10 points.
+</span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains some text. When the user selects a
+word from the web page (by double clicking it), all the occurrences
+of this word should be highlighted with a different background. </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains a stack of divs displayed one on top of
+each other. All divs has to have the same size. The user should be able to
+change the order of the divs in the stack by drag and drop operations.
+When the user drags a div outside the stack all other divs on top of
+it should fall down (using animated transition) to fill the empty space
+created by removing that div. Conversly, when the user inserts a div in
+the stack, some divs should shift up in order to make place for the new
+div.
+</span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which displays a horizontal dropdown menu. Each menu
+should drop down in a transition/animation when the user clicks the
+menu title. It should also not simply dissapear when the menu slides 
+up again, it should be done in an animation. You are not allowed to 
+use any independent CSS code (except CSS properties set through jquery 
+method calls).
+ </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains a table with 5 lines and 5 columns.
+Besides these 5 columns there are 2 special columns, one on the
+left side and another one on the right side containing buttons.
+If the user clicks on a button from the left column, the row
+of the table which contains that button will be deleted and all
+the rows above that row will be shifted down with one row. 
+If the user clicks on a button from the right column, a new 
+editable table row is added just bellow the current row. The user
+can edit this row and if all the cells from this row are filled
+with data, the row becomes read-only (like the rest of the rows
+in the table).</span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains a form with at least 5 input fields and
+a button. If the user clicks on that button a modal interface window
+(actually a div) should pop out in the center of the browser window.
+This modal window should contain 4 input fields and a button. If the user
+clicks on that button, the modal window disappears and all the values
+inserted by the user in the modal window's input fields will be 
+concatenated and added to a text field in the main form. During the time
+the modal window is displayed, the fields from the main form will
+be inactive and a transparrent gray div should be displayed on top
+of the web page (this grey div should be beneath the modal window
+and should occupy the whole browser window).
+</span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which displays in the middle of the browser window
+a horizontal slider containing a list of images. The slider should
+continuously slide from the left to the right side of the browser 
+window. Each image that exits the browser window on the right side
+should enter the browser window on the left side. The sliding should
+be animated. If the user clicks on an image, the sliding is paused
+and a larger version of that window pops in the center of the browser
+window (just like images appear in the Lightbox javascript library).
+If the user clicks anywhere on this large image, the image dissapears
+and the sliding of the horizontal image bar is resumed. </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which displays a vertically sliding desktop like
+the ones used on the Android or iOS. The web page should have 4 desktops,
+each desktop having a distinct transparent background color or image and
+having distinct textual and image content. A desktop is a large div occupying
+(exactly or almost) the whole browser window. By default, desktop no. 1 
+should be shown to the user. If the user clicks somewhere on the desktop
+the desktop should be slided vertically to the bottom of the window and 
+from the top of the window desktop no. 2 should slide vertically and 
+occupy the whole browser window. Desktop sliding should be an animated 
+transition and one desktop should not just instantly dissapear and the 
+next desktop be displayed instead.  </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which displays a horizontally sliding desktop like
+the ones used on the Android or iOS. The web page should have 4 desktops,
+each desktop having a distinct transparent background color or image and
+having distinct textual and image content. A desktop is a large div occupying
+(exactly or almost) the whole browser window. By default, desktop no. 1 
+should be shown to the user. If the user clicks somewhere on the desktop
+the desktop should be slided horizontally to the right and from the left
+desktop no. 2 should slide horizontally and occupy the whole browser
+window. Desktop sliding should be an animated transition and one desktop
+should not just instantly dissapear and the next desktop be displayed 
+instead.  </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which should implement tabbed-based navigation. The web 
+page should contain on the top of the page minimum 5 tabs and each tab
+whould contain at least 2 images and 3 divs with text. When the user
+clicks on a tab from the top of the page, the contents of that tab will
+be displayed and the contents of all other tabs will be hidden.
+You are not allowed to use any independent CSS code (except CSS properties set 
+through jquery method calls).
+</span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains a button and if the user clicks
+that button, a dialog window (like the one from http://jqueryui.com/dialog/) 
+will be displayed. That dialog window should display various information.
+The user should be able to resize the window and also he/she can close the 
+window by clicking on the 'x' icon. The dialog window does not need to be 
+movable in the browser window.
+ </span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains a button and if the user clicks
+that button, a dialog window (like the one from http://jqueryui.com/dialog/) 
+will be displayed. That dialog window should display various information.
+The user should be able to move the window around in the browser window
+and also he/she can close the window by clicking on the 'x' icon. The dialog
+window does not need to be resizable.
+</span><br></p><p class="paragraph-problem"><span>Solve the following task using only the jQuery library (production version, jquery.min.js,
+or developement version, jquery.js); YOU ARE NOT ALLOWED TO USE ANY OTHER JS LIBRARY, PLUGIN
+OR EXTENSION BESIDES THE JQUERY LIBRARY.
+
+Write a web page which contains a table with 10 lines and 4 columns. The table
+should also have a column header and a column footer. When the user clicks on
+a cell from the header, the table content will be sorted in ascending order of 
+the cells from the column that the user has clicked on. If the user clicks again 
+on the header cell from that column, the table will be sorted again, but in 
+descending order of the cells from that column. If the user clicks on a footer
+cell from column i, than the cells from column i will be interchanged
+with the cells from the column i+1 (if i+1=5, the first column is 
+interchanged with column 4).
+</span><br></p></div></div>
+
+lab 7 - php
+
+<div class="panel"><div class="panel-heading">All Problems from this lab - if you want to practice</div><div class="panel-body" id="allproblems-panel"><p class="paragraph-problem"><span>Write a web application for a news service. Some users
+add or update news and others just view news. News are
+saved on a database and they have the following characteristics:
+text of the news, title, producer, date, category (politics, society, 
+health etc.). The user who adds or updates news must log in
+using a username and password before doing this. The other
+type of users can see all the news from a range of dates
+and all news from a specific category (use AJAX for these 
+filters). Also, on the news browsing page, the filter 
+used for the previous browsing action (i.e. date range, category),
+should be displayed (do this in javascript).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing log reports. The log 
+reports are registered (added) by users to a database 
+repository. A log report has several attributes: type,
+severity (i.e. debug, warning, notice, error, critical etc.),
+a date, a user who created the log and the log itself (message 
+text). A user must have the posibility to view log reports
+added by him/her, all log reports, logs of a specific
+type or severity (use AJAX for this). Also a user can delete
+his/her own log report. Log browsing should be paged - logs
+are displayed on pages with maximum 4 logs on a page (you
+should be able to go to the previous and the next page).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for assigning grades to students
+for various courses. The application will have two types of users:
+professors and students. A student can only display his own grades.
+Students are organized in groups. A professor can add or modify
+a grade for the students in a group at a specific course.
+In order to retrieve the list of students from a group, the
+web application will use AJAX. Prior to using the application
+the users (professors and students) must log in using a username 
+and a password. Students in a group should be displayed on 
+pages with maximum 4 students on a page (you should be able 
+to go to the previous and the next page).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing a personal collection
+of URLs (web links). Together with the URL, a description/comment
+and a category must be added to the database. The user can add, remove
+and modify URLs and the associated descriptions. Also
+the user can browse using AJAX the list of URLs grouped by
+their categories. Prior to using the application, a user must log in with a 
+username and password which are stored in the database). URL browsing 
+should be paged - URLs are displayed on pages with maximum 4 URLs on 
+a page (you should be able to go to the previous and the next page).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing vacation destinations.
+A destination has in the database besides the name of the location
+(i.e. city etc.), the country name, description, tourist targets
+in that location an an estimated cost per day. The user can add,
+delete or modify the destinations and he can also browse the 
+vacation destinations grouped by countries (use AJAX for this).
+Vacation destination browsing should be paged - destinations
+are displayed on pages with maximum 4 vacation destinations on 
+a page (you should be able to go to the previous and the next page).
+</span><br></p><p class="paragraph-problem"><span>Write a web application which implements a guest book.
+A guest book record is identified by: author (email),
+title, comment, date. A client of the application should 
+be able to add new entries in the guest book, but only 
+the administrator of the site can delete or modify them.
+Also the administrator should be able to browse the list of guest 
+book entries based on (grouped by) their author and title using AJAX.
+Guest book browsing should be paged - entries are displayed 
+on pages with maximum 4 entries on a page (you
+should be able to go to the previous and the next page).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing a second-hand car business.
+The application should maintain various information about a car
+in the database (i.e. model, engine power, fuel, price, color, age,
+history etc.). The application should implement: car browsing (use 
+AJAX for retrieving cars from a specific category), adding, 
+removing and updating a car. Also, on the browsing page, the filter 
+used for the previous browsing action (i.e. category),
+should be displayed (do this in javascript).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing food recipes.
+The application should maintain various information about a recipe
+in the database (i.e. author, name, type, the actual recipe etc.). The
+application should implement: recipes browsing (use AJAX for retrieving
+recipes of a specific type), adding, removing and updating 
+a recipe. Also, on the browsing page, the filter 
+used for the previous browsing action (i.e. recipe type),
+should be displayed (do this in javascript).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing documents.
+The application should maintain various information about a document
+in the database (i.e. author, title, number of pages, type, format etc.). The
+application should implement: document browsing (use AJAX for retrieving
+documents of a specific type or format), adding, removing and updating 
+a document. Also, on the browsing page, the filter 
+used for the previous browsing action (i.e. type or format),
+should be displayed (do this in javascript).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing users in an enterprise system.
+The application should maintain various information about users
+in the database (i.e. name, username, password, age, role, profile, 
+email, webpage etc.). The application should implement: user browsing 
+(use AJAX for retrieving users from a specific role), user lookup based
+on his name, adding, removing and updating a user. Also, on the browsing 
+page, the filter used for the previous browsing action (i.e. role),
+should be displayed (do this in javascript).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing books in a personal library.
+The application should maintain various information about a book
+in the database (i.e. author, title, pages, genre etc.). The
+application should implement: book browsing (use AJAX for retrieving
+books from a specific category/genre), adding, removing, updating 
+a book, lending books. Also, on the browsing page, the filter 
+used for the previous browsing action (i.e. category/genre),
+should be displayed (do this in javascript). 
+</span><br></p><p class="paragraph-problem"><span>Write a web application for managing a multimedia file collection.
+The application should maintain various information about a multimedia
+file in the database (i.e. title, format type, genre, path in the 
+file system etc.). The application should implement: multimedia
+file browsing (use AJAX for retrieving titles from a specific 
+category/genre), adding, removing, updating a multimedia file
+from the collection. The files themselves does not have to be
+stored in the database. Also, on the browsing page, the filter 
+used for the previous browsing action (i.e. category/genre),
+should be displayed (do this in javascript).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for an e-commerce store.
+The application should maintain information about the products it
+sells in the database. The user should browse products by 
+categories (use AJAX for this), add and remove products to
+a shopping cart. Product browsing should be paged - products
+are displayed on pages with maximum 4 products on a page (you
+should be able to go to the previous and the next page).
+</span><br></p><p class="paragraph-problem"><span>Write a web application for room booking in a hotel chain.
+The application should save room information in the database.
+The clients should have the posibility of browsing the rooms
+by category, type, price, hotel etc. (use AJAX for this), booking
+one or more rooms for a specific period of time, but also
+they should have the posibility of cancelling their reservation.
+Rooms browsing should be paged - rooms are displayed on pages 
+with maximum 4 rooms on a page (you should be able to go 
+to the previous and the next page).
+</span><br></p></div></div>
+
+lab 8 - jsp
+
+<div class="panel"><div class="panel-heading">All Problems from this lab - if you want to practice</div><div class="panel-body" id="allproblems-panel"><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application which allows two (human) players to play the game X-0.
+The game can not start unless two playes are connected. If a third player comes
+in, it will be rejected from the game with an error message. Users must authenticate
+themselfs prior to entering the game (based on username/password).
+
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application for user profile management. Before he can use the 
+application, the user must be authenticated or he has the option of creating
+a new account (i.e. register). The profile of a user contains the fields: name,
+email address, picture, age, home town. A user can search the profile database 
+using any of the above fields or parts of a field. The profiles resulted
+from the search are displayed on the browser window: the image, name, email
+address, age and home town. Image files need not be stored on the database.
+A user can also change its profile data.
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application which allows a user to play the game snake/worm. Each
+move of the work is stored in the database. The server keeps track of the time
+spent by the user in the game. There should be some obstacles on the play grid
+(some cells of the grid should be avoided by the snake/worm). Users must authenticate
+themselfs prior to entering the game (based on username/password).
+
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application for choosing a transportation route. The database
+has a list of cities, each having a list of neighboring cities. The displays
+a web page with the current station chosen by the user and all the neighboring 
+cities to which this station is connected. The user can then choose a new destination
+which becomes the new current station and so on... At any time the user can
+specify that the current station is the final destination and in this case,
+the application displays the complete route selected by the user so far.
+The user should also be able to change his/her mind and come back to a
+previously selected station and change it.
+
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application for a forum. Users must identify themselfs prior to entering
+the forum. Each user can start a new topic or can comment (post) on an existing topic.
+Each user must be able to delete its own posts (comments). The posts of a topic
+should be displayed in a single web page.
+
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+
+Write a web application which allows users to upload pictures. Each user
+sees the pictures of all users and he/she can assign votes (natural numbers)
+for other users' pictures (not for his own pictures). If a picture gets
+votes from several users, these votes are added. The application then 
+displays the top N pictures and the corresponding authors of these pictures,
+based on the number of votes; the number N should be chosen by the user. 
+Each user must identify himself prior to using the application.
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application which implements a quiz test. The application displays 
+several questions together with their possible answers on a web page and the use must
+choose an appropriate answer. The number of questions per page should be configured by
+the user. Also the number of questions in a test should be configured (chosen) by the 
+user. The questions and possible answers are stored in the database. In the end,
+the application displays the number of questions correctly answered by the user
+and the number of questions wrongly answered by the user, together with the all time
+best result of the user.
+
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application which allows two (human) players to play the game ships ("vapoare"
+in romanian): each player has 2 ships deployed in a rectangular grid and they
+each try to sink the oponent's ships by bombing it (guessing the position of the
+ship on the battle grid). The game can not start unless two playes are connected. 
+If a third player comes in, it will be rejected from the game with an error message. 
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application for an image puzzle. All functionality should be
+at the server-side. The application should also record and display how many
+move operations were required for the user to solve the puzzle.
+</span><br></p><p class="paragraph-problem"><span>Solve the following problem using the JSP/Servlet technology. State information
+(between web requests) is always stored in a database; you may store some state
+information in cookies/session objects.
+
+Write a web application for maintaining a collection of URLs for a list of users.
+Each user can add or delete URLs from his/her collection. The user must authenticate
+prior to using the application. A guest user (i.e. not authenticated) can still
+see a list with the top 10 most popular URLs, but an authenticated user can see
+a list with the top N most popular URLs, where N is configurable by the user.
+
+</span><br></p></div></div>
+
+lab 9 - asp net
+
+Solve the same problem you got for the PHP lab, but using the ASP .NET technology. In addition to the specification for the PHP lab, your application must implement user authentication and ask the user to authenticate himself/herself prior to actually using the web application (based on an username and password saved in the database).

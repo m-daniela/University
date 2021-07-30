@@ -1,0 +1,1 @@
+f = @(x) x - 0.8 * sin(x) - 2*pi / 10;ff = @(x) 1 - 0.8* cos(x);x0 = 1;N = 6;eps = 10^(-4);for n = 1:N  xn = x0 - f(x0) / ff(x0);  res = xn;  x0 = xn;endforresn

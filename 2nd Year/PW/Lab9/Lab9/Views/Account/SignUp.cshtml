@@ -1,0 +1,88 @@
+﻿@using Lab9.Models
+@model Lab9.Models.User
+@{
+    ViewBag.Title = "SignUp";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+
+    @using (Html.BeginForm("SignUp", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="container">
+            @Html.ValidationSummary(true)
+            <h1>Sign Up</h1>
+            <p id="error">@TempData["msg"]</p>
+            <form>
+                @Html.EditorFor(model => model.username, new { htmlAttributes = new { placeholder = "Username" } })
+                @Html.ValidationMessageFor(model => model.username)<br />
+                @Html.EditorFor(model => model.email, new { htmlAttributes = new { placeholder = "Email" } })
+                @Html.ValidationMessageFor(model => model.email)<br />
+                <label>Password:</label><br />
+                @Html.PasswordFor(model => model.password, new { htmlAttributes = new { placeholder = "Password" } })
+                @Html.ValidationMessageFor(model => model.password)<br />
+                @Html.EditorFor(model => model.age, new { htmlAttributes = new { placeholder = "Age" } })
+                @Html.ValidationMessageFor(model => model.age)<br />
+                @Html.EditorFor(model => model.webpage, new { htmlAttributes = new { placeholder = "Webpage" } })
+                @Html.ValidationMessageFor(model => model.webpage)<br />
+                @Html.EditorFor(model => model.role, new { htmlAttributes = new { placeholder = "Role" } })
+                @Html.ValidationMessageFor(model => model.role)<br />
+            </form>
+            <button type="submit" name="signup_btn" class="signup btn">Sign up</button>
+
+            @Html.ActionLink("Already a member?", "LogIn")
+        </div>
+    }
+
+    @*<div class="container">
+        <h1>Sign Up</h1>
+
+        <form method="post">
+
+            <input type="text" id="email" name="email" placeholder="E-mail*"><br>
+            <input type="text" id="username" name="username" placeholder="Username*"><br>
+            <input type="password" id="password" name="password" placeholder="Password*"><br>
+            <input type="text" id="age" name="age" placeholder="Age"><br>
+
+            <input type="text" id="webpage" name="webpage" placeholder="Webpage"><br>
+
+            <label type="text">Role:</label><br>
+            <select id="role" name="role">
+                <option value="manager">Manager</option>
+                <option value="ceo">CEO</option>
+                <option value="sales">Sales</option>
+                <option value="support">Support</option>
+            </select><br>
+            <button type="submit" name="signup_btn" class="signup btn">Sign up</button>
+        </form>
+        <a href=@Url.Action("LogIn", "Account")>Already a member? Log in.</a><br>
+        <a href="browse.php">Browse users.</a>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#signup_btn").click(function (e) {
+                e.preventDefault();
+                $.post("/Account/SignUp", {
+                    username: $("#username").val(),
+                    password: $("#password").val(),
+                    email: $("#email").val(),
+                    role: $("#role").val(),
+                    webpage: $("#webpage").val(),
+                    age: $("#age").val()
+                }, function () { window.location = data; }
+                );
+            });
+        });
+    </script>*@
+
+</body>
+</html>

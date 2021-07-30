@@ -1,0 +1,96 @@
+﻿@using Lab9.Models
+@model User
+@{
+    ViewBag.Title = "Profile";
+}
+
+
+    <div class="container">
+        @if (@HttpContext.Current.Session["username"] != null)
+        {
+            <h1>
+                Welcome, @HttpContext.Current.Session["username"]
+            </h1>
+            <input type="hidden" id="username" value=@HttpContext.Current.Session["username"]>
+            <div id="details">
+                @*<p>@HttpContext.Current.Session["email"]</p>
+                <p>@HttpContext.Current.Session["age"]</p>
+                <p>@HttpContext.Current.Session["webpage"]</p>
+                <p>@HttpContext.Current.Session["role"]</p>*@
+
+
+            </div>
+            @Html.ActionLink("Browse users", "/", "Main")
+            @Html.ActionLink("Log out", "SignOut")
+            <hr>
+            <h1>Update your details</h1>
+            @*using (Html.BeginForm("Profile", "Account", FormMethod.Post))
+            {
+
+                <form>
+                    <input type="text" name="new_username" placeholder="New Username"><br>
+                    <input type="password" name="password" placeholder="Password"><br>
+                    <button type="submit" name="submit" value="change_username">Change Username</button>
+
+                </form>
+            }
+            <hr />*@
+            using (Html.BeginForm("Profile", "Account", FormMethod.Post))
+            {
+                <form>
+                    <input type="password" name="password" placeholder="Old password"><br>
+                    <input type="password" name="new_password" placeholder="New password"><br>
+                    <button type="submit" name="submit" value="change_password">Change Password</button>
+                </form>
+
+            }
+            <hr />
+            using (Html.BeginForm("Profile", "Account", FormMethod.Post))
+            {
+                <form>
+                    <input type="text" name="email" placeholder="E-mail"><br>
+                    <input type="text" name="age" placeholder="Age"><br>
+                    <input type="text" name="webpage" placeholder="Webpage"><br>
+                    <input type="password" name="password_details" placeholder="Password"><br>
+
+                    <button type="submit" name="submit" value="change_details">Change Details</button>
+                    @Html.Raw(TempData["msg"])
+
+                </form>
+            }
+            <hr />
+            using (Html.BeginForm("Profile", "Account", FormMethod.Post))
+            {
+                <h1>Delete account</h1>
+                <form>
+                    <input type="password" name="password" placeholder="Password"><br>
+                    <button type="submit" name="submit" value="delete">Delete account</button>
+
+                </form>
+
+            }
+            <script>
+                $(document).ready(function () {
+                    console.log($("#username").val());
+                    $.get("/Account/GetUserDetails/", { username: $("#username").val() },
+                        function (data) {
+                            console.log(data);
+                            //var output = '<h1>Details</h1>';
+                            //output += '<p>Username: ' + user.username + '</p>' +
+                            //    '<p>Email: ' + user.email + '</p>' +
+                            //    '<p>Age: ' + user.age + '</p>' +
+                            //    '<p>Webpage: ' + user.webpage + '</p>' +
+                            //    '<p>Role: ' + user.role + '</p>';
+                            $("#details").html(data);
+                        });
+                });
+            </script>
+
+
+        }
+        else
+        {
+            @Html.ActionLink("Log in to continue", "LogIn")
+            @Html.ActionLink("Create an account", "SignUp")
+        }
+    </div>

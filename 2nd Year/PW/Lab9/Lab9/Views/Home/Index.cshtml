@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="container">
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p>filter users</p>
+            <p>see profile</p>
+        }
+        else
+        {
+            @Html.ActionLink("To use this application, please Log In", "Index", "Account")
+        }
+        @*<h1>@(User.Identity.IsAuthenticated ? HttpContext.Current.User.Identity.Name : "Guest")</h1>*@
+
+    </div>

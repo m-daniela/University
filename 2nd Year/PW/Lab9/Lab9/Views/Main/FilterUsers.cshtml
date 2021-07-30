@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "FilterUsers";
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+    
+    <div class="filters">
+        @if (@HttpContext.Current.Session["username"] != null)
+        {
+            @Html.ActionLink("Back to profile", "Profile", "Account")
+            @Html.ActionLink("Log out", "SignOut")
+            <form>
+                <select id="filter" name="filter">
+                    <option value="username">username</option>
+                    <option value="email">email</option>
+                    <option value="age">age</option>
+                    <option value="webpage">webpage</option>
+                    <option value="role">role</option>
+                </select>
+                <input id="in" type="text" name="input">
+            </form>
+            <button type="submit" id="show">Show results</button>
+            <h1>Previous searches</h1>
+            <div id="searches">
+
+            </div>
+        }
+        
+    </div>
+    <div class="container2">
+        @if (@HttpContext.Current.Session["username"] != null)
+        {
+            @*@Html.ActionLink("Back to profile", "Profile", "Account")
+            @Html.ActionLink("Log out", "SignOut")*@
+            <div class="query">
+                <div id="results">
+                    <p id="header"><span>Username</span><span>Email</span><span>Age</span><span>Webpage</span><span>Role</span></p>
+
+                </div>
+            </div>
+
+        }
+        else
+        {
+            @Html.ActionLink("Log in to continue", "LogIn", "Account")
+            @Html.ActionLink("Create an account", "SignUp", "Account")
+        }
+    </div>
+       
+
+        <script>
+        $(document).ready(function() {
+        $("#show").click(function() {
+            $.get("/Main/FilterUsers", { filter: $("#filter").val(), input: $("#in").val() },
+                function(data) {
+                    $("#results").html(data);
+                }
+            );
+
+            $("#searches").html("").append(function() {
+                    return $("#filter").val() + ": " + $("#in").val();
+
+                });
+            });
+        });
+
+
+        </script>
+
+</body>
+
+
+</html>

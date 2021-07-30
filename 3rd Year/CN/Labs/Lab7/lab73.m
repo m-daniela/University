@@ -1,0 +1,1 @@
+rectangle("Position", [0 0 3 5])[x, y] = ginput(10);xx = [0:0.1:3];p = polyfit(x, y, 2)hold on;plot(x, y, "+");plot(xx, polyval(p, xx));
